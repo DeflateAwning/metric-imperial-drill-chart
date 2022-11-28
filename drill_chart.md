@@ -1,15 +1,3 @@
-# metric-imperial-drill-chart
-A no-nonsense drill chart. Generated with the Python code in this repo.
-
-## Contents
-The chart contains the following drill sizes:
-* Letters A-Z, based on [Wikipedia](https://en.wikipedia.org/wiki/Drill_bit_sizes#:~:text=Drill%20bit%20conversion%20table%5Bedit%5D)
-* mm sizes from 0.5mm to 24mm, increasing by 0.5mm
-* mm sizes from 25mm to 50mm, increasing by 1mm
-* Inch sizes from 1/64" to 1", increasing by 1/64"
-* Inch sizes from 1" to 2", increasing by 1/32"
-
-## Drill Chart
 | Inches (Frac)   | Inches (Dec)   | mm        | Source            |
 |:----------------|:---------------|:----------|:------------------|
 | 1/64            | 0.016"         | 0.397 mm  | Inch Fractions    |
@@ -207,9 +195,3 @@ The chart contains the following drill sizes:
 |                 | 1.929"         | 49.000 mm | mm                |
 | 31/16           | 1.938"         | 49.212 mm | Inch Fractions    |
 | 63/32           | 1.969"         | 50.006 mm | Inch Fractions    |
-
-## Generation Instructions
-1. Install dependencies with `pip install -r requirements.txt`
-2. Run `python3 make_drill_chart.py`
-3. View the drill chart in `drill_chart.md`, which is copied into the README here.
-
