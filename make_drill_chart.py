@@ -10,7 +10,7 @@ def lrange(*args):
 	""" list range - can be added to other lrange """
 	return list(arange(*args))
 
-df_inch = pd.DataFrame([{'Inches (Frac)': str(Fraction(i,64)), 'Inches (Dec)': i/64, 'mm': i/64*25.4, 'Source': 'Inch Fractions'} for i in lrange(1,66)+lrange(66,128,2)])
+df_inch = pd.DataFrame([{'Inches (Frac)': str(Fraction(i,64))+'"', 'Inches (Dec)': i/64, 'mm': i/64*25.4, 'Source': 'Inch Fractions'} for i in lrange(1,66)+lrange(66,128,2)])
 df_mm = pd.DataFrame([{'mm': mm, 'Inches (Dec)': mm/25.4, 'Source': 'mm'} for mm in lrange(0.5, 24, 0.5) + lrange(24, 50, 1)])
 
 # this table is from https://en.wikipedia.org/wiki/Drill_bit_sizes#:~:text=Drill%20bit%20conversion%20table%5Bedit%5D
