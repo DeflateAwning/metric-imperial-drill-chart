@@ -72,6 +72,7 @@ def make_uts_screw_table() -> pl.DataFrame:
             {
                 "1-8": None,
                 "1-14": None,
+                "2-4.5": None,
             }
         ),
         # Threads Per Inch Info (like 'UNC=40 TPI')

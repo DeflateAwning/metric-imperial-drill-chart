@@ -216,7 +216,7 @@ The chart contains the following drill sizes:
 | 49.000 mm | 1.929"         |                 |                              |                    | mm                                                               |
 | 49.212 mm | 1.938"         | 31/16"          |                              |                    | Inch Fractions                                                   |
 | 50.006 mm | 1.969"         | 63/32"          |                              |                    | Inch Fractions                                                   |
-| 50.800 mm | 2.000"         |                 | (#2) UNC=4.5 TPI             |                    | Unified Thread Standard (UTS)                                    |
+| 50.800 mm | 2.000"         |                 | UNC=4.5 TPI                  |                    | Unified Thread Standard (UTS)                                    |
 
 ## Generation Instructions
 1. Install dependencies with `pip install -r requirements.txt`
